@@ -52,28 +52,28 @@
 
 
 .main-blue-bg-01 {
-    background-image: url(/images/bg-04-free-img.jpg);
+    background-image: url(/media/images/bg-04-free-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .main-blue-bg-03 {
-    background-image: url(/images/bg-05-free-img.jpg);
+    background-image: url(/media/images/bg-05-free-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .main-blue-bg {
-    background-image: url(/images/bg-06-free-img.jpg);
+    background-image: url(/media/images/bg-06-free-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .double-dolphin-bg-white {
-    background-image: url(/images/bg-01-free-img.png);
+    background-image: url(/media/images/bg-01-free-img.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +81,7 @@
 
 }
 .double-dolphin-bg-red {
-    background-image: url(/images/bg-01-free-img\(2\).png);
+    background-image: url(/media/images/bg-01-free-img\(2\).png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,28 +91,28 @@
 
 /* background size others fishes  */
 .side-fish-bg-01 {
-    background-image: url(/images/bg-0008-free-img.png);
+    background-image: url(/media/images/bg-0008-free-img.png);
     background-repeat: no-repeat;
 }
 
 .side-fish-bg-02 {
-    background-image: url(/images/bg-0007-free-img.png);
+    background-image: url(/media/images/bg-0007-free-img.png);
     background-repeat: no-repeat;
 }
 
 .side-fish-bg-03 {
-    background-image: url(/images/bg-003-free-img.png);
+    background-image: url(/media/images/bg-003-free-img.png);
     background-repeat: no-repeat;
     
 }
 
 .side-fish-bg-04 {
-    background-image: url(/images/bg-04-free-img.jpg);
+    background-image: url(/media/images/bg-04-free-img.jpg);
     background-repeat: no-repeat;
 }
 
 .side-fish-bg-05 {
-    background-image: url(/images/animals-005-free-img.png);
+    background-image: url(/media/images/animals-005-free-img.png);
     background-repeat: no-repeat;
     background-position:center center;
     background-size: contain;
@@ -120,69 +120,69 @@
 }
 
 .side-fish-bg-06 {
-    background-image: url(/images/bg-006-free-img.png);
+    background-image: url(/media/images/bg-006-free-img.png);
     background-repeat: no-repeat;
 }
 .side-fish-bg-07 {
-    background-image: url(/images/bg-09-free-img.png);
+    background-image: url(/media/images/bg-09-free-img.png);
     background-repeat: no-repeat;
 }
 .penguin-bg{
-    background-image: url(/images/animals-06-free-img.jpg);
+    background-image: url(/media/images/animals-06-free-img.jpg);
     background-repeat: no-repeat;
     background-position:top center;
     background-size: cover;
 }
 .shark-bg{
-    background-image: url(/images/animals-08-free-img.jpg);
+    background-image: url(/media/images/animals-08-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .manta-bg{
-    background-image: url(/images/animals-05-free-img.jpg);
+    background-image: url(/media/images/animals-05-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .sea-lion-bg{
-    background-image: url(/images/animals-04-free-img.jpg);
+    background-image: url(/media/images/animals-04-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .bicolor-fish-bg{
-    background-image: url(/images/animals-09-free-img.jpg);
+    background-image: url(/media/images/animals-09-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .dolphin-bg{
-    background-image: url(/images/animals-10-free-img.jpg);
+    background-image: url(/media/images/animals-10-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .Axilspot-Wrasse-bg{
-    background-image: url(/images/animals-07-free-img.jpg);
+    background-image: url(/media/images/animals-07-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .Seahorse-bg{
-    background-image: url(/images/animals-02-free-img.jpg);
+    background-image: url(/media/images/animals-02-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .Anemonefish-bg{
-    background-image: url(/images/animals-03-free-img.jpg);
+    background-image: url(/media/images/animals-03-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
 }
 .Tortoise-bg{
-    background-image: url(/images/animals-01-free-img.jpg);
+    background-image: url(/media/images/animals-01-free-img.jpg);
         background-repeat: no-repeat;
         background-position:top center;
         background-size: cover;
