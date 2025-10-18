@@ -1,0 +1,367 @@
+/* nav bar */
+.navbar-2 {
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center the toggle */
+    padding: 14px 20px;
+}
+
+.navbar-toggle,
+.navbar-close {
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    
+
+
+    /* Change color of toggles */
+}
+
+.navbar-toggle {
+    background-color: #00234d;
+    border-radius: 50%;
+    padding: 4px 12px;
+}
+
+.main-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    /* Center navigation options */
+    transition: all 0.4s ease-in-out;
+    /* Smooth transition */
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.main-nav li {
+    padding: 14px 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        width: 100%;
+        background-color: #02709c;
+        /* From https://css.glass */
+        background: rgba(2, 112, 156, 0.61);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9.5px);
+        -webkit-backdrop-filter: blur(9.4px);
+        border: 1px solid rgba(2, 112, 156, 0.57);
+        /* glass effect */
+
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 111;
+        overflow-y: scroll;
+    }
+
+    .main-nav.active {
+        opacity: 1;
+        max-height: 100vh;
+    }
+
+    .navbar-close {
+        display: block;
+        padding: 24px 30px;
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 50px;
+    }
+
+    .main-nav li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-nav {
+        display: flex !important;
+        flex-direction: row;
+        position: static;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        /* Center navigation options */
+        opacity: 1;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .navbar-toggle,
+    .navbar-close {
+        display: none;
+    }
+}
+
+/* nav bar */
+
+
+/* about page youtube video play content  */
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+.video-container img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+
+.video-container .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-container .play-button:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 24px solid white;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.iframe-container {
+    display: none;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 100%;
+}
+/* Style for the container */
+/* Style for the container */
+
+/* about page youtube video play content  */
+
+/* gallery page sizing images properly  */
+
+.img-1 {
+    margin-top: 20%;
+    margin-left: 20%;
+
+}
+
+.img-2 {
+    margin-top: -4%;
+
+}
+
+.img-3 {
+
+    margin-top: -13%;
+}
+
+/* .img-4{
+  
+} */
+.img-5 {
+    margin-top: -12%;
+}
+
+/* .img-6{
+
+} */
+.img-7 {
+    margin-top: -7%;
+}
+
+.img-8 {
+    margin-top: -8%;
+}
+
+
+
+
+
+/* gallery page image tap to see full screen  */
+
+/* Gallery thumbnail images */
+.gallery img {
+    /* width: 500px; */
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Modal background */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Close button styling */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Modal content */
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+    /* Smooth zoom transition */
+}
+
+/* Icons for actions */
+.icons {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* gallery page image tap to see full screen  */
+
+
+
+/* svg hover icon color change  */
+
+
+.icon-hover {
+    fill: rgba(0, 103, 169, 255);
+    transition: .3s ease;
+}
+
+.icon-bg-hover:hover .icon-hover {
+    fill: #080055;
+    transition: .3s ease;
+}
+
+.icon-bg-hover {
+   background-color: white;
+    transition: .3s ease;
+    border-radius: 50%;
+}
+
+.icon-bg-hover:hover {
+ background-color: white;
+    transition: .3s ease;
+}
+/* svg hover icon color change  */
+
+
+/* background video for ticket page  */
+/* Basic Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+} */
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    overflow: hidden;
+}
+
+.video-background .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    /* Optionally reduce opacity or add a filter */
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+.video-background .content {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+/* background video for ticket page  */
